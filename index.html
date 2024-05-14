@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Harmony Coffee Crafter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conatiner">
+    <div class="starting">
+        <div class="head">
+            <div class="head-start">
+                <div class="heading-one">
+                    <h5>50% of our Profits go to Charity</h5>
+                    <div class="heading-one-inner">
+                        <h5>Learn More<i class="fa-solid fa-angle-down"></i></h5>
+                    </div>
+                </div>
+                <div class="heading-two">
+                    <div class="icon-one">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 16C13.0609 16 14.0783 15.5786 14.8284 14.8284C15.5786 14.0783 16 13.0609 16 12C16 10.9391 15.5786 9.92172 14.8284 9.17157C14.0783 8.42143 13.0609 8 12 8C10.9391 8 9.92172 8.42143 9.17157 9.17157C8.42143 9.92172 8 10.9391 8 12C8 13.0609 8.42143 14.0783 9.17157 14.8284C9.92172 15.5786 10.9391 16 12 16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 16V8C3 6.67392 3.52678 5.40215 4.46447 4.46447C5.40215 3.52678 6.67392 3 8 3H16C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8V16C21 17.3261 20.4732 18.5979 19.5355 19.5355C18.5979 20.4732 17.3261 21 16 21H8C6.67392 21 5.40215 20.4732 4.46447 19.5355C3.52678 18.5979 3 17.3261 3 16Z" stroke="white" stroke-width="1.5"/>
+                            <path d="M17.5 6.51002L17.51 6.49902" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </div>
+                    <div class="icon-two">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.615 2.25 2.25 6.615 2.25 12C2.25 17.385 6.615 21.75 12 21.75C17.385 21.75 21.75 17.385 21.75 12C21.75 6.615 17.385 2.25 12 2.25ZM3.75 12C3.75055 10.2618 4.30007 8.56827 5.32014 7.16092C6.34022 5.75357 7.77873 4.70436 9.43042 4.16298C11.0821 3.62161 12.8626 3.61574 14.5178 4.14621C16.1731 4.67668 17.6185 5.71639 18.6478 7.11699C19.6771 8.51758 20.2378 10.2075 20.2498 11.9456C20.2618 13.6837 19.7245 15.3812 18.7147 16.7959C17.7048 18.2106 16.2739 19.2702 14.6262 19.8235C12.9784 20.3768 11.198 20.3955 9.539 19.877C9.96163 19.2132 10.2977 18.498 10.539 17.749L11.055 15.772C11.2684 16.0766 11.5545 16.3231 11.8874 16.489C12.2203 16.6549 12.5893 16.735 12.961 16.722C15.496 16.722 17.278 14.418 17.278 11.556C17.278 8.807 15.033 6.753 12.154 6.753C8.567 6.753 6.662 9.163 6.662 11.782C6.662 13.005 7.309 14.519 8.348 15.006C8.502 15.077 8.603 15.006 8.627 14.893C8.651 14.78 8.793 14.211 8.858 13.949C8.86807 13.9077 8.86796 13.8645 8.85768 13.8232C8.8474 13.782 8.82727 13.7438 8.799 13.712C8.40637 13.159 8.19848 12.4962 8.205 11.818C8.20292 11.3312 8.29967 10.849 8.48938 10.4006C8.67909 9.95226 8.95781 9.54706 9.30868 9.20957C9.65955 8.87207 10.0753 8.60928 10.5306 8.43713C10.986 8.26497 11.4716 8.18702 11.958 8.208C12.4135 8.18135 12.8695 8.24994 13.297 8.40938C13.7245 8.56883 14.1141 8.81562 14.4408 9.13403C14.7676 9.45244 15.0244 9.83547 15.1949 10.2587C15.3654 10.6819 15.4458 11.136 15.431 11.592C15.431 13.836 14.291 15.398 12.819 15.398C12.6288 15.4125 12.438 15.381 12.2625 15.3061C12.0871 15.2312 11.9323 15.1153 11.8112 14.9679C11.69 14.8206 11.6062 14.6463 11.5666 14.4597C11.5271 14.2731 11.533 14.0798 11.584 13.896C11.668 13.546 11.78 13.185 11.888 12.833C12.085 12.195 12.273 11.588 12.273 11.129C12.2935 10.9798 12.2815 10.8279 12.2378 10.6838C12.1942 10.5396 12.1199 10.4066 12.0201 10.2938C11.9203 10.181 11.7974 10.0911 11.6596 10.0302C11.5219 9.96931 11.3726 9.93888 11.222 9.941C10.39 9.941 9.719 10.808 9.719 11.96C9.713 12.367 9.789 12.771 9.945 13.148L8.965 17.304C8.84521 18.0895 8.84521 18.8885 8.965 19.674C8.31914 19.4181 7.70829 19.0814 7.147 18.672C5.7691 17.6657 4.73426 16.2597 4.183 14.645C3.89528 13.7929 3.74902 12.8994 3.75 12Z" fill="white"/>
+                            </svg>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container-one">
+                <div class="web-banner">
+                    <div class="drawer" >
+                    
+                        <div class="drop-menu">
+                          <ul class="drop-menu-content" style="overflow-y: scroll; height: 100%;" >
+                            <div class="cross">
+                              <svg class="time" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="10" width="10">
+                                <line x1="0" y1="0" x2="20" y2="20" stroke="#fff" stroke-width="1" />
+                                <line x1="20" y1="0" x2="0" y2="20" stroke="#fff" stroke-width="1" />
+                              </svg>
+                            </div>
+                            <div class="drop-color">
+                             <div class="items-zero">
+                              <a href="#">Login</a>
+                             </div>
+                             
+                          
+                              <li class="items"><a href="#">ABOUT</a><i class="fa-solid fa-angle-right"></i></li>
+                              <ul class="plus-dropdown">
+                                <li><a href="">Our Story</a></li>
+                                <li><a href="">Giving Back</a></li>
+                                <li><a href="">Our Blog</a></li>
+                              </ul>
+                              <li class="items "><a href="#">SHOP COFFEE</a><i class="fa-solid fa-angle-right"></i></li>
+                              <ul class="plus-dropdown">
+                                <li><a href="">Single Origin</a></li>
+                                <li><a href="">Select Blends</a></li>
+                                <li class="items items-one"><a href="">By Region</a><i class="fa-solid fa-angle-right"></i></li>
+                                <ul class="plus-dropdown">
+                                    <li><a href="">Africa </a></li>
+                                    <li><a href="">Asia/Oceania</a></li>
+                                    <li><a href="">Central America</a></li>
+                                  </ul>
+                                <li><a href="">By Roasting Profile</a></li>
+                              </ul>
+                              <li class="items "><a href="#">GIFT SHOP</a><i class="fa-solid fa-angle-right"></i></li>
+                              <ul class="plus-dropdown">
+                                <li><a href="">Harmony Gear</a></li>
+                                <li><a href="">GiftShop-Two</a></li>
+                                <li><a href="">GiftShop-Three</a></li>
+                              </ul>
+                            </div>
+                            <div class="drawer-images">
+                                <div class="drawerimg-one">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 16C13.0609 16 14.0783 15.5786 14.8284 14.8284C15.5786 14.0783 16 13.0609 16 12C16 10.9391 15.5786 9.92172 14.8284 9.17157C14.0783 8.42143 13.0609 8 12 8C10.9391 8 9.92172 8.42143 9.17157 9.17157C8.42143 9.92172 8 10.9391 8 12C8 13.0609 8.42143 14.0783 9.17157 14.8284C9.92172 15.5786 10.9391 16 12 16Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M3 16V8C3 6.67392 3.52678 5.40215 4.46447 4.46447C5.40215 3.52678 6.67392 3 8 3H16C17.3261 3 18.5979 3.52678 19.5355 4.46447C20.4732 5.40215 21 6.67392 21 8V16C21 17.3261 20.4732 18.5979 19.5355 19.5355C18.5979 20.4732 17.3261 21 16 21H8C6.67392 21 5.40215 20.4732 4.46447 19.5355C3.52678 18.5979 3 17.3261 3 16Z" stroke="white" stroke-width="1.5"/>
+                                        <path d="M17.5 6.51002L17.51 6.49902" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                </div>
+                                <div class="drawerimg-two">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25C6.615 2.25 2.25 6.615 2.25 12C2.25 17.385 6.615 21.75 12 21.75C17.385 21.75 21.75 17.385 21.75 12C21.75 6.615 17.385 2.25 12 2.25ZM3.75 12C3.75055 10.2618 4.30007 8.56827 5.32014 7.16092C6.34022 5.75357 7.77873 4.70436 9.43042 4.16298C11.0821 3.62161 12.8626 3.61574 14.5178 4.14621C16.1731 4.67668 17.6185 5.71639 18.6478 7.11699C19.6771 8.51758 20.2378 10.2075 20.2498 11.9456C20.2618 13.6837 19.7245 15.3812 18.7147 16.7959C17.7048 18.2106 16.2739 19.2702 14.6262 19.8235C12.9784 20.3768 11.198 20.3955 9.539 19.877C9.96163 19.2132 10.2977 18.498 10.539 17.749L11.055 15.772C11.2684 16.0766 11.5545 16.3231 11.8874 16.489C12.2203 16.6549 12.5893 16.735 12.961 16.722C15.496 16.722 17.278 14.418 17.278 11.556C17.278 8.807 15.033 6.753 12.154 6.753C8.567 6.753 6.662 9.163 6.662 11.782C6.662 13.005 7.309 14.519 8.348 15.006C8.502 15.077 8.603 15.006 8.627 14.893C8.651 14.78 8.793 14.211 8.858 13.949C8.86807 13.9077 8.86796 13.8645 8.85768 13.8232C8.8474 13.782 8.82727 13.7438 8.799 13.712C8.40637 13.159 8.19848 12.4962 8.205 11.818C8.20292 11.3312 8.29967 10.849 8.48938 10.4006C8.67909 9.95226 8.95781 9.54706 9.30868 9.20957C9.65955 8.87207 10.0753 8.60928 10.5306 8.43713C10.986 8.26497 11.4716 8.18702 11.958 8.208C12.4135 8.18135 12.8695 8.24994 13.297 8.40938C13.7245 8.56883 14.1141 8.81562 14.4408 9.13403C14.7676 9.45244 15.0244 9.83547 15.1949 10.2587C15.3654 10.6819 15.4458 11.136 15.431 11.592C15.431 13.836 14.291 15.398 12.819 15.398C12.6288 15.4125 12.438 15.381 12.2625 15.3061C12.0871 15.2312 11.9323 15.1153 11.8112 14.9679C11.69 14.8206 11.6062 14.6463 11.5666 14.4597C11.5271 14.2731 11.533 14.0798 11.584 13.896C11.668 13.546 11.78 13.185 11.888 12.833C12.085 12.195 12.273 11.588 12.273 11.129C12.2935 10.9798 12.2815 10.8279 12.2378 10.6838C12.1942 10.5396 12.1199 10.4066 12.0201 10.2938C11.9203 10.181 11.7974 10.0911 11.6596 10.0302C11.5219 9.96931 11.3726 9.93888 11.222 9.941C10.39 9.941 9.719 10.808 9.719 11.96C9.713 12.367 9.789 12.771 9.945 13.148L8.965 17.304C8.84521 18.0895 8.84521 18.8885 8.965 19.674C8.31914 19.4181 7.70829 19.0814 7.147 18.672C5.7691 17.6657 4.73426 16.2597 4.183 14.645C3.89528 13.7929 3.74902 12.8994 3.75 12Z" fill="white"/>
+                                        </svg>
+                                </div>
+                              </div>
+                          </ul>
+                         
+                        </div>
+                      </div>
+                <div class="image-text-main">
+                    <div class="Bars" >
+                        <!-- <i class="fa-solid fa-bars" style="color: #ffff; font-size: 16px;"></i> -->
+                       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" viewBox="0 0 30 16">
+                      <rect width="22" height="1.5" stroke="#FFFF"></rect>
+                      <rect y="7" width="18" height="1.5" stroke="#FFFF"></rect>
+                      <rect y="14" width="22" height="1.5" stroke="#FFFF"></rect>
+                    </svg>
+                    </div>
+                <div class="iamge-text-logo">
+                  <img src="Img/image 2.png" alt="">
+                </div>
+                <div class="image-list">
+                    <ul>
+                        <li><a href="">SHOP COFFEE </a><i class="fa-solid fa-angle-down"></i></li>
+                        <li><a href="">ABOUT <i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="">GIFT SHOP <i class="fa-solid fa-angle-down"></i></a></li>
+                    </ul>
+                </div>
+                <div class="icons-right">
+                    <div class="right-insta">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="30" height="30" fill="url(#pattern0_36_235)"/>
+                            <defs>
+                            <pattern id="pattern0_36_235" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_36_235" transform="scale(0.0416667)"/>
+                            </pattern>
+                            <image id="image0_36_235" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDI0LTAyLTE0VDEzOjQ5OjQ2KzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyNC0wMi0xNFQxODowNDo0MyswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNC0wMi0xNFQxODowNDo0MyswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpjZTA2YWZmYS1lZTI1LWUwNGQtOWEyNS02YWExYjNkNmU3NTUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2UwNmFmZmEtZWUyNS1lMDRkLTlhMjUtNmFhMWIzZDZlNzU1IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2UwNmFmZmEtZWUyNS1lMDRkLTlhMjUtNmFhMWIzZDZlNzU1Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZTA2YWZmYS1lZTI1LWUwNGQtOWEyNS02YWExYjNkNmU3NTUiIHN0RXZ0OndoZW49IjIwMjQtMDItMTRUMTM6NDk6NDYrMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4wIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7StfQGAAACoklEQVRIibVU0WtSYRT/OROaZrAURC6M4SgWWxC1Bw3WQ0hB9FzbQ/sHetlLUSLc70YibLBgo7nexkBhsBcdix720kPhQ7eHhTC5TrSGCu42Zea85jw9WU6vm7e2H5yH7/zg/M7vO+f7dESEs0TPwsICrygKAaCDgwPa2NjYnp2dfXRqAs2H3t5euN1ux/j4eFAQhIunokBEf4IxZhVFcY+IaGlpKdTM/WvoWmewvLy8Mjk5+XBzc7MUj8dFrQ1XKhU5nU4/93q9UpsDIsLc3NwU/ScymUyNMXaJiHCutYNisbgG4DURYXV19YNWB263+7bdbtebTCYXgHXVe9vd3T0kIvL7/Te13LfP57ter9epXC4TY+wCER3dogZSqVQRAMxm8z0t3XMc90yn0yEajX7jeb4EQF0gm81+B4C+vj6nFoGhoaG7AJBIJMKNnKqALMtfAcBqtV7ttrjP5+NGR0ct1WoVmUyGHStQKBQ+AQDHcfZuBWw22wu9Xg9RFPM8z/9o5Nu2CABKpdI6gDeDg4Om+fn5qW4ExsbGHgPA1tbWO5fL9ZfotBG5XK6mdf9jsdhPxtj55jqqDgAglUoVbDabJZlMVguFQvm47hVF+ZVOpz8nk0kPz/OVI2QnB+FwWCQiCoVC77W8hdbo6GBnZycC4IbT6bwTCASEWq22d9IcisXimtfr3e7KAWOsR5KkipYZJBIJpbVO22/ajJmZmfsDAwNP+/v7rxkMBv1JDuLx+MeJiYkHzbljBU4Dqg+tGYuLi/79/f16JBL5osYLgtATi8VK+Xz+cHp6uu1r6TjkBiwWyy2z2axzOBxX1HiDwWAbHh42AYDRaHQBiGoSkCTpSTAYfJXL5VZGRkbaeI/Hkw0EAi+NRuNlWZbftvJnPoPfS7KkiT4Zr5EAAAAASUVORK5CYII="/>
+                            </defs>
+                            </svg>
+                            
+                    </div>
+                    <div class="right-flag">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="30" height="30" fill="url(#pattern0_36_237)"/>
+                            <defs>
+                            <pattern id="pattern0_36_237" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_36_237" transform="scale(0.0416667)"/>
+                            </pattern>
+                            <image id="image0_36_237" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFmlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDggNzkuMTY0MDM2LCAyMDE5LzA4LzEzLTAxOjA2OjU3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDI0LTAyLTE0VDEzOjUwOjI4KzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyNC0wMi0xNFQxODowNDozMyswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNC0wMi0xNFQxODowNDozMyswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxMDliODlhMi1mMzg2LWFkNGUtODI3ZC0wM2I0NDEzM2VjZjIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA5Yjg5YTItZjM4Ni1hZDRlLTgyN2QtMDNiNDQxMzNlY2YyIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MTA5Yjg5YTItZjM4Ni1hZDRlLTgyN2QtMDNiNDQxMzNlY2YyIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDoxMDliODlhMi1mMzg2LWFkNGUtODI3ZC0wM2I0NDEzM2VjZjIiIHN0RXZ0OndoZW49IjIwMjQtMDItMTRUMTM6NTA6MjgrMDU6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMS4wIChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz56yi0VAAACn0lEQVRIibVUTWsTURS9DdGaJosSikIgi266K1bcKC5EpHsJBFfiSurWRREXNTPYGtBpOv1KxjQt+AMKhUIrFK1Q6coGu5FkYoWSNglNQuJimEma9043SZCQycRIDzwY7jv3nvfuO3P7ANBlwnap1YnI3g1pZmbG6/F4RK/Xe59zzk9OTr6k0+mpQCBwZpkMoOOKRqMLhUKBoQW5XI6Fw+G3VvkdN2VZfgYAmqZhY2Pju6Io76LR6MLm5uYPwzDAGMPs7Ky/Z4FEIqEDwPz8/PPWveXl5SkAiMfjf3oSmJ6e9gLA8fFx1YxTLBYZYwyCIAyYcUxd5HQ6x4mIisWibsbJ5/MVm81GTqfzoRnHVEDTtM9ERG6322HGGRoa6uecN7lt0al/mUymBgCyLE+YvYGqqkbPj7yyshLp5CIAiEQiwZ4FANDa2trHSqWCVhiGgVgspljl96GLWRQKhR6PjIy8GhwcvFF3TzqVSr2enJz8ZJVrOYtEUbzucDhu6rpeymazyVwulzw/P9dcLtc9URTdlqczu9ri4uKL/f39s3btaUDXdezt7WXrf3x3LRJF0TY6OvrN5/PdbcSOjo6qh4eHccZYhYjIbrf3j42N3R4eHr5CRMQ5p/X19a9+v/+B5Q12d3fTAFCtVrG1tfVzbm7uidnpZFme2NnZ+VWr1QAA29vbiY4uUhTlPQAUCgUmSZLPyiGNFQqFnpZKJQ4AS0tLL00FVFXVASAcDr/ptnhjra6ufgCAg4ODclsBSZIeAcDp6WntX4sDIEEQrpbLZQ4AwWDwViPetKnL5bpDRKSqatbSem0QCASqyWSyVK813og3BRhjBhFRPp//3YsAEVEmk0nVP3kz+Pc1JUnyCYJwrZcW1ds00GqOrkbF/+ACHPM1hO3B760AAAAASUVORK5CYII="/>
+                            </defs>
+                            </svg> 
+                    </div>
+                </div>
+               
+            </div>
+                <img src="Img/WEBSITE_BANNER_1920_x_800_px 2 1.png" alt="">
+                <div class="outheading">
+                    <div class="small-heading">
+                        <a href="">HORMONY COFFEE</a>
+                    </div>
+                    <div class="large-heading">
+                        <a href="">SINGLE ORIGIN SPECIALITY COFFEE </a>
+                        <!-- <a href="">SPECIALITY COFFEE</a> -->
+                    </div>
+                    <div class="list-heading">
+                        <ul>
+                            <li><a href="">ROASTED TO ORDER</a></li>
+                            <li><a href="">DELIVERD TO YOU AT PEAK FRESHNESS</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn">
+                        <h5>ORDER NOW</h5>
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+        <div class="container-two">
+            <div class="conatiner-two-inner">
+                <div class="container-two-para">
+                    <p>Handpicked from small farms practicing sustainable 
+                     agriculture. Every cup you brew tells a unique story of 
+                     heritage, flavor, and commitment to our planet.</p>
+                </div>
+            </div>
+        </div>
+<div class="shop-heading">
+    <a href="">Shop by Category</a>
+</div>
+        <div class="container-three">
+            <div class="container-three-inner">
+                <div class="bothimage">
+                <div class="image-one">
+                    <img src="Img/Rectangle 15.png" alt="" style="">
+                    <div class="inner-tex">
+                        <div class="inerbt">
+                            
+                        </div>
+                    </div>
+                
+                    <div class="inner-text">
+                        <div class="inerbtn">
+                            <h4>single origin</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-two">
+                    <img src="Img/Rectangle 14.png" alt="">
+                    <div class="inner-tex">
+                        <div class="inerbt">
+                            
+                        </div>
+                    </div>
+                    <div class="inner-text1">
+                        <div class="inerbtn1">
+                   <h4>single origin</h4>
+               </div>
+                    </div>
+                </div>
+            </div>
+          
+           
+            </div>
+        </div>
+        <div class="shop-heading">
+            <a href="">Shop by roasting profile</a>
+        </div>
+        <div class="conatiner-four">
+            <div class="container-four-inner">
+                <div class="threeimages">
+                    <div class="firstpic">
+                    <img src="Img/Rectangle 4.png" alt="">
+                    <div class="inner-texup">
+                        <div class="inerbtup">
+                            
+                        </div>
+                    </div>
+                <div class="inertext2">
+                    <div class="inerbtn2">
+                        <h4>LIGHT | med light</h4>
+                    </div>
+                </div>
+                    </div>
+                    <div class="secondpic">
+                        <img src="Img/Rectangle 5.png" alt="">
+                        <div class="inner-texup">
+                            <div class="inerbtup">
+                                
+                            </div>
+                        </div>
+                        <div class="inertext3">
+                            <div class="inerbtn3">
+                                <h4>medium roast</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thirdpic">
+                        <img src="Img/Rectangle 6.png" alt="">
+                        <div class="inner-texup">
+                            <div class="inerbtup">
+                                
+                            </div>
+                        </div>
+                        <div class="inertext4">
+                            <div class="inerbtn4">
+                                <h4>med dark | dark</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop-heading">
+            <a href="">Shop by region</a>
+        </div>
+        <div class="conatiner-five">
+            <div class="container-five-inner">
+                <div class="fourimages-combination">
+                <div class="fourimages">
+                    <div class="pic-one">
+                    <img src="Img/Rectangle 21.png" alt="">
+                    <div class="inner-texdown">
+                        <div class="inerbtdown">
+                            
+                        </div>
+                    </div>
+                    <div class="inertext5">
+                        <div class="inerbtn5">
+                            <h4>africa</h4>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="pic-one">
+                        <img src="Img/Rectangle 22.png" alt="">
+                        <div class="inner-texdown">
+                            <div class="inerbtdown">
+                                
+                            </div>
+                        </div>
+                        <div class="inertext5">
+                            <div class="inerbtn5">
+                                <h4>africa</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="combine-pic">
+                    <div class="pic-one">
+                        <img src="Img/Rectangle 23.png" alt="">
+                        <div class="inner-texdown">
+                            <div class="inerbtdown">
+                                
+                            </div>
+                        </div>
+                        <div class="inertext5">
+                            <div class="inerbtn5">
+                                <h4>africa</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pic-one">
+                        <img src="Img/Rectangle 24.png" alt="">
+                        <div class="inner-texdown">
+                            <div class="inerbtdown">
+                                
+                            </div>
+                        </div>
+                        <div class="inertext5">
+                            <div class="inerbtn5">
+                                <h4>africa</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="container-five">
+            <div class="conatiner-five-inner">
+             <div class="three-paragrapgh">
+                <div class="paragraph-sliceone">
+                <div class="first-paragraph">
+                    <div class="icons-one">
+                        <img src="Img/cup.png" alt="">
+                    </div>
+                    <div class="fresh-heading">
+                        <h4>Fresh Roasted</h4>
+                    </div>
+                    <div class="lists-heading">
+                        <ul>
+                            <li><a href="">Do You Know That The Quality Of Coffee Starts To
+                                Deteriorate After Roasting?  </a></li>
+                                <li><a href=""> Our Orders Are All Roasted To Order , Poviding You
+                                    Unparalleled Freshness For A Explosion Of Aroma And
+                                    Flavor.</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="second-paragraph">
+                    <div class="icons-two">
+                        <img src="Img/flag.png" alt="">
+                    </div>
+                    <div class="fresh-heading">
+                        <h4>Quality & Value</h4>
+                    </div>
+                    <div class="lists-heading">
+                        <ul>
+                            <li><a href="">Do You Know That The Quality Of Coffee Starts To
+                                Deteriorate After Roasting? </a></li>
+                                <li><a href=""> In The World Of Coffee, You Often Do Get What You Pay
+                                    For. Try Our Coffee And You Will Be Sure To Experience A
+                                    Big ‘Taste-Bang’ For Your Buck.’</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="paragraph-slicetwo">
+                <div class="third-paragraph">
+                    <div class="icons-three">
+                        <img src="Img/sale.png" alt="">
+                    </div>
+                    <div class="fresh-heading">
+                        <h4>Quality & Value</h4>
+                    </div>
+                    <div class="lists-heading">
+                        <ul>
+                            <li><a href="">We offer Free Shiping On All Out Products, And Our
+                                Quick Production Cycle Had Your Coffee Delivered To You
+                                In A Week Or Less. </a></li>
+                               
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             </div>
+            </div>
+        </div>
+        <div class="shop-heading">
+            <a href="">our best sellers</a>
+            <!-- <div class="shop-inner">
+                <a href="">our best sellers</a>
+            </div> -->
+        </div>
+        <div class="container-six">
+            <div class="container-six-inner">
+             <div class="container-six-images">
+                <img src="Img/Group 4.png" alt="">
+             </div>
+             <div class="container-six-fiveheadings">
+                <div class="container-six-firstheading">
+                        <div class="light-heading">
+                            <h6>Single origin</h6>
+                        </div>
+                        <div class="bold-heading">
+                            <h4>Costa Rican</h4>
+                        </div>
+                </div>
+                <div class="container-six-secondheading">
+                    <div class="light-heading">
+                        <h6>Single origin</h6>
+                    </div>
+                    <div class="bold-heading">
+                        <h4>Balinese Blue</h4>
+                    </div>
+                </div>
+                <div class="container-six-thirdheading">
+                    <div class="light-heading">
+                        <h6>Single origin</h6>
+                    </div>
+                    <div class="bold-heading">
+                        <h4>Peru</h4>
+                    </div>
+                </div>
+                <div class="container-six-fourheading">
+                    <div class="light-heading">
+                        <h6>Single origin</h6>
+                    </div>
+                    <div class="bold-heading">
+                        <h4>Tanzan</h4>
+                    </div>
+                </div>
+                <div class="container-six-lastheading">
+                    <div class="light-heading">
+                        <h6>Single origin</h6>
+                    </div>
+                    <div class="bold-heading">
+                        <h4>Whiskey Barrel</h4>
+                    </div>
+                </div>
+             </div>
+            </div>
+        </div>
+        <div class="container-seven">
+                <img src="Img/image 8.png" alt="">
+                <div class="container-seven-innerdata">
+                    <h2>Coffee is life</h2>
+                    <div class="container-seven-paragraph">
+                        <p class="para-one">WE BELIEVE THAT COFFEE IS MORE THAN JUST A DRINK; IT IS A LIFESTYLE, A CULTURE, AND A PASSION.</p>
+                        <p class="para-one"> JOIN US ON THIS JOURNEY AND LET US SHARE WITH YOU THE LOVE AND DEDICATION THAT DEFINES HARMONY COFFEE CRAFTERS.</p>
+                        <p class="para-two">TOGETHER, LET'S CELEBRATE THE BEAUTY OF COFFEE AND CREATE MEMORABLE MOMENTS, ONE CUP AT A TIME.</p>
+                    </div>
+                </div>
+        </div>
+        <div class="container-eight">
+            <div class="container-eight-inner">
+                <img src="Img/image 10.png" alt="">
+                <div class="inner-icon">
+                    <img src="Img/gridicons_play.png" style="color: aqua;" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-nine">
+            <div class="container-nine-inner">
+                <div class="container-nine-main">
+                    <div class="container-nine-slice-one">
+               <div class="container-nine-paraone">
+             <div class="imge-one">
+            <img src="Img/image 2.png" alt="">
+             </div>
+             <div class="imagesplus">
+             <div class="imge-two">
+                <img src="Img/iconoir_instagram.png" alt="">
+             </div>
+             <div class="imge-three">
+            <img src="Img/basil_pinterest-outline.png" alt="">
+             </div>
+            </div>
+               </div> 
+               <div class="container-nine-paratwo">
+                <div class="main-heading">
+                    <h2>Shipping Policy</h2>
+                </div>
+                <div class="lower-heading">
+                   <h6>Refund Policy</h6> 
+                </div>
+                <div class="lower-heading">
+                     <h6>Terms Of Service</h6>
+
+                </div>
+                <div class="lower-heading">
+                    <h6>Privacy</h6>
+                </div>
+            </div>
+               </div>
+               <div class="container-nine-slice-two">
+               <div class="container-nine-parathree">
+                <div class="main-heading">
+                    <h2>Shipping Policy</h2>
+                </div>
+                <div class="lower-heading">
+                   <h6>Refund Policy</h6> 
+                </div>
+                <div class="lower-heading">
+                     <h6>Terms Of Service</h6>
+
+                </div>
+                <div class="lower-heading">
+                    <h6>Privacy</h6>
+                </div>
+               </div>
+               <div class="container-nine-parafour">
+                <div class="main-heading">
+                    <h2>Subscribe Our Newsletter</h2>
+                </div>
+                <div class="text">
+                   <h5>Enter Your Email</h5>
+                </div>
+                    <div class="last">
+                        <h4>SUBSCRIBE</h4>
+                    </div>
+               </div>
+            </div>
+            </div>
+            <div class="last-logo">
+                <img src="Img/Group 65.png" alt="">
+               </div>
+               <div class="last-heading">
+                <h4>© 2024, Harmony Coffee Crafters | All Rights Reserved </h4>
+               </div>
+        </div>
+
+        </div>
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./script.js"></script>
+</body>
+
+</html>

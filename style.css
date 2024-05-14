@@ -1,0 +1,2432 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "DIN Next W1G";
+    src: url(./Font/dinnextw1g.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "DIN Next W1G";
+    src: url(./Font/dinnextw1g_heavy.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "DIN Next W1G";
+    src: url(./Font/dinnextw1g_bold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "DIN Next W1G";
+    src: url(./Font/dinnextw1g_medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "DIN Next W1G";
+    src: url(./Font/dinnextw1g_ultralight.otf);
+    font-weight: 200;
+}
+
+.starting {
+    background: #1B0E00;
+}
+
+.head {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.head-start {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-one {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+.heading-one h5 {
+    font-family: "DIN Next W1G";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading-two {
+    width: 10%;
+    display: flex;
+    justify-content: right;
+    /* flex-basis: content; */
+}
+
+.fa-angle-down {
+    color: #FFFFFF;
+    /* padding-bottom: 2px; */
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 2px;
+}
+
+.fa-angle-down:hover {
+    cursor: pointer;
+    color: lightseagreen;
+}
+
+.heading-one-inner {
+  
+    display: flex;
+    border: 1px solid #FFFFFF;
+    width: 104px;
+    height: 35px;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 20px;
+
+}
+
+.icon-one {
+    width: 24px;
+    /* height: 24px; */
+    top: 13px;
+    /* left: 1321px; */
+    /* padding: 3px 0px 0px 0px; */
+    /* gap: 0px;
+    opacity: 0px; */
+}
+
+.icon-two {
+    width: 24px;
+    /* height: 24px; */
+    top: 13px;
+    /* left: 1356px; */
+    /* padding: 2.25px 0px 0px 0px; */
+    /* gap: 0px;
+    opacity: 0px; */
+    padding-left: 10px;
+}
+                    /* drawer */
+.drawer{
+    display: none;
+}
+/* container-one */
+
+.container-one {
+    position: relative;
+}
+
+.web-banner img {
+    width: 100%;
+    display: block;
+}
+
+.image-text {
+    max-width: 1440px;
+    margin: 0px auto;
+
+}
+
+.image-text-main {
+    width: 100%;
+    max-width: 1460px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    position: absolute;
+    /* background-color: aqua; */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0px 20px;
+}
+/* .image-text-inner {
+    width: 50%;
+    display: flex;
+} */
+
+.iamge-text-logo {
+    width: 10%;
+    /* max-width: 120px; */
+}
+.iamge-text-logo img{
+    max-width: 120px;
+}
+
+.image-list {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.image-list ul{
+    display: flex;
+}
+.image-list ul li {
+    /* display: inline-block; */
+    margin-right: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.image-list ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-align: center;
+}
+.icons-right {
+    width: 10%;
+    align-items: center;
+    display: flex;
+    /* float: right; */
+    justify-content: right;
+    cursor: pointer;
+    /* top: 129px; */
+    /* position: absolute; */
+}
+
+/* .right-insta {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+} */
+.iamge-text-logo img{
+    max-width: 120px;
+}
+.right-flag{
+padding-left: 25px;
+}
+.outheading{
+    position: absolute;
+    width: 100%;
+    max-width: 1251px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12%;
+    padding: 0px 20px;
+
+}
+.small-heading {
+    /* top: 180px;
+    left: 205px; */
+padding-bottom: 15px;
+}
+
+.small-heading a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "DIN Next W1G";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+}
+
+.large-heading {
+    width: 470px;
+/* height: 110px; */
+}
+.large-heading a {
+
+
+
+    font-family: "Quattrocento", serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55.4px;
+    /* text-align: left; */
+}
+.list-heading {
+    top: 350px;
+    left: 179px;
+}
+.list-heading a {
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-decoration: none;
+    color: #FFFFFF;
+    /* text-align: left; */
+}
+.list-heading ul {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    /* top: 350px;
+    left: 179px; */
+}
+.list-heading li {
+    color: #FFFF;
+    padding: 8px;
+}
+.btn {
+    cursor: pointer;
+
+    width: 130px;
+    height: 35px;
+    border: none;
+    background-color: #ffff;
+}
+
+.btn h5 {
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    /* text-align: left; */
+
+}
+
+
+
+                                                        /* conatiner-two */
+.container-two {
+    /* margin-top: 200px; */
+    background-color: #6F4E37;
+}
+
+.conatiner-two-inner {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 45px;
+
+}
+.container-two-para{
+    width: 700px;
+    height: 93px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.container-two-para p {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Quattrocento", serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 31.02px;
+    text-align: center;
+}
+.shop-heading {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.shop-heading a {
+    text-decoration: none;
+    font-family: "Quattrocento", serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38.78px;
+    text-align: center;
+    color: #212121;
+    /* background: #E3D2AA; */
+}
+/* .shop-heading a:after{
+    content: '';
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: 20px;
+    background: #E3D2AA;
+    margin-bottom: 10px;
+} */
+/* .shop-inner{
+    width: 312px;
+    height: 22px;
+  
+    display: flex;
+   
+    justify-content: center;
+    margin: auto;  
+} */
+
+                                                        /* container-three */
+.container-three{
+    margin-top: 50px;
+ 
+}
+
+.container-three-inner{
+    position: relative;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.bothimage{
+ 
+    display: flex;
+    width: 100%;
+      /* padding-right: 20px; */
+}
+.image-one{
+    padding-right: 10px;
+    width: 50%;
+    position: relative;
+    z-index: 999;
+}
+.image-one img{
+    width: 100%
+}
+/* .inner-tex{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.inerbt{
+    width: 630px;
+    height: 402px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.inner-texup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.inerbtup{
+    width: 415px;
+    height: 278px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.inner-texdown{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.inerbtdown{
+    width: 305px;
+    height: 191px;
+    border: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+} */
+
+
+
+.Bars{
+    
+    display: none;
+} 
+
+.inner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.inerbtn{
+    width: 170px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+.inerbtn h4{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: center;
+
+    }
+    .inner-text1{
+        position: absolute;
+        top: 50%;
+        left:50%;
+    }
+    .inerbtn1{
+        width: 170px;
+        height: 50px;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-50%, -50%);
+    }
+    .inerbtn1 h4{
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-family: "DIN Next W1G";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: center
+        }
+
+.image-two{
+    width: 50%;
+    padding-left: 10px;
+    position: relative;
+}
+.image-two img{
+    width: 100%;
+}
+                                                        /* container-four */
+.container-four-inner{
+    position: relative;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.threeimages {
+    display: flex;
+    width: 100%;
+}
+
+.firstpic {
+    width: 33.33%;
+    padding-right: 5px;
+    position: relative;
+}
+.firstpic img{
+    width: 100%;
+}
+.inertext2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.inerbtn2{
+    width: 170px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+.inerbtn2 h4{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center
+    }
+
+.secondpic {
+    width: 33.33%;
+    padding-right: 5px;
+    position: relative;
+}
+.secondpic img{
+    width: 100%;
+}
+.inertext3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.inerbtn3{
+    width: 170px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+}
+.inerbtn3 h4{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center
+    }
+.thirdpic {
+    width: 33.33%;
+    position: relative;
+    padding-right: 5px;
+}
+.thirdpic img {
+   width: 100%;
+}
+.inertext4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inerbtn4{
+    width: 170px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inerbtn4 h4{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center
+    }
+                                                        /* container-five */
+.container-five-inner {
+    max-width: 1440px;
+    margin: 0px auto;
+    position: relative;
+}
+.fourimages-combination{
+    display: flex;
+    width: 100%;
+}
+.fourimages {
+    display: flex;
+    width: 50%;
+}
+.combine-pic{
+    display: flex;
+    width: 50%;
+}
+
+.pic-one {
+    padding-right: 5px;
+    width: 50%;
+    position: relative;
+}
+.pic-one img {
+    width: 100%;
+}
+.inertext5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inerbtn5{
+    width: 110px;
+    height: 38px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inerbtn5 h4{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center
+    }
+
+.pic-two {
+    padding-right: 5px;
+    width: 50%
+}
+.pic-two img {
+    width: 100%;
+}
+.inertext6{
+    position: absolute;
+    top: 38%;
+    left: 33%;
+}
+
+.pic-three {
+    padding-right: 5px;
+    width: 50%
+}
+.pic-three img {
+    width: 100%;
+}
+.inertext7{
+    position: absolute;
+    top: 38%;
+    left: 58%;
+}
+.pic-four {
+    width: 50%
+}
+.pic-four img {
+    /* padding-right: 10px; */
+    width: 100%;
+}
+.inertext8{
+    position: absolute;
+    top: 38%;
+    left: 84%;
+}
+
+                                                        /* Container-five */
+.container-five {
+    background: linear-gradient(90deg, #3D311F 0%, #010100 100%);
+
+}
+
+.conatiner-five-inner {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.three-paragrapgh{
+    width: 100%;
+    display: flex;
+}
+.paragraph-sliceone{
+width: 66.66%;
+display: flex;
+}
+.first-paragraph{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.icons-one{
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.icons-one img{
+    width: 32px;
+    height: 35px;
+}
+.fresh-heading{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.fresh-heading h4{
+    color: #FFFFFF;
+    font-family: "Quattrocento", serif;
+font-size: 28px;
+font-weight: 700;
+line-height: 31.02px;
+/* text-align: center; */
+}
+.lists-heading ul li{
+    color: #FFFFFF;
+    padding: 10px;
+}
+.lists-heading ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "DIN Next W1G";
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+text-align: left;
+
+}
+.second-paragraph{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.icons-two{
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.icons-two img{
+    width: 33px;
+    height: 21px;
+}
+.paragraph-slicetwo{
+    width: 33.33%;
+    display: flex;
+}
+.third-paragraph{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.icons-three{
+    width: 100%;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+.icons-three img{
+    width: 35px;
+    height: 29px;
+}
+
+                                                /* container-six */
+.container-six {
+    margin-top: 50px;
+}
+
+.container-six-inner {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.container-six-images{
+    width: 100%;
+}
+.container-six-images img{
+    width: 100%;
+}
+.container-six-fiveheadings{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+.container-six-firstheading{
+    width: 20%;
+    text-align: center;
+}
+.light-heading h6{
+    font-family: "DIN Next W1G";
+font-size: 12px;
+font-weight: 400;
+line-height: 14.4px;
+color: #000;
+/* text-align: left; */
+}
+.bold-heading h4{
+    font-family: "DIN Next W1G";
+font-size: 16px;
+font-weight: 500;
+line-height: 19.2px;
+text-transform: uppercase;
+/* text-align: left; */
+
+}
+.container-six-secondheading{
+    width: 20%;
+    text-align: center;
+}
+.container-six-thirdheading{
+    width: 20%;
+    text-align: center;
+}
+.container-six-fourheading{
+    width: 20%;
+    text-align: center;
+}
+.container-six-lastheading{
+    width: 20%;
+    text-align: center;
+}
+
+                                                        /*container-seven */
+.container-seven{
+    margin-top: 75px;
+    position: relative;
+    margin-bottom: 50px;
+    align-items: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+.container-seven img{
+    width: 100%;
+}
+.container-seven-innerdata{
+    position: absolute;
+text-align: center;
+/* background-color: brown; */
+width: 577px;
+color: #FFFFFF;
+align-items: center;
+justify-content: center;
+/* top: 10; */
+/* height: 271px; */
+}
+.container-seven-innerdata h2{
+    padding-bottom: 47px;
+    font-family: "Quattrocento", serif;
+font-size: 35px;
+font-weight: 700;
+line-height: 38.78px;
+text-align: center;
+text-transform: uppercase;
+}
+/* .container-seven-paragraph{
+    width: 577px;
+    height: 152px;
+  
+    
+} */
+.para-one{
+    padding-bottom: 20px;
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+}
+.para-two{
+    font-family: "DIN Next W1G";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: center;
+}
+                                                                /*container-eight  */
+.container-eight{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.container-eight-inner{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 1440px;
+    margin: 0px auto;
+    /* background-color: aqua; */
+    padding-left: 45px;
+    padding-right: 45px;
+    
+}
+.container-eight-inner img{
+    width: 100%;
+}
+.inner-icon{
+    position: absolute;
+    cursor: pointer;
+    /* background-color: black; */
+    /* top: 0; */
+}
+.inner-icon img{
+    width: 36px;
+}
+                                                                /* container-nine */
+.container-nine{
+    background: linear-gradient(90deg, #3D311F 0%, #010100 100%);
+    margin-top: 75px;
+    /* margin-bottom: 50px; */
+}
+.container-nine-inner{
+    max-width: 1460px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+.container-nine-main{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+.container-nine-slice-one{
+width: 50%;
+display: flex;
+}
+.container-nine-paraone{
+    width: 50%;
+}
+.imagesplus{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.imge-two{
+    padding-right: 10px;
+}
+.container-nine-paratwo{
+    width: 50%;
+    color: #FFFFFF;
+}
+.main-heading h2{
+padding-bottom: 15px;
+font-family: "Quattrocento", serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 17.73px;
+
+}
+.lower-heading h6{
+    font-family:  "Quattrocento", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    /* text-align: left; */
+    
+    padding-top: 25px;
+}
+.container-nine-slice-two{
+width: 50%;
+display: flex;
+}
+.container-nine-parathree{
+    width: 50%;
+    color: #FFFFFF;
+}
+.container-nine-parafour{
+    width: 50%;
+    color: #FFFFFF;
+    /* background-color: aqua; */
+}
+.text{
+    width: 260px;
+    height: 50px;
+    background-color: #ffff;
+    border: 2px solid white;
+    margin-bottom: 20px
+}
+.text h5{
+    font-family: "DIN Next W1G";
+font-size: 14px;
+font-weight:400;
+line-height: 19.2px;
+padding-top: 14px;
+color: #000;
+padding-left: 15px;
+}
+.last{
+width: 260px;
+    height: 50px;
+    border: 2px solid white;
+}
+.last h4{
+    text-align: center;
+    font-family: "DIN Next W1G";
+font-size: 16px;
+font-weight: 400;
+line-height: 19.2px;
+padding-top: 14px;
+}
+.last-logo {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-heading h4{
+    color: #FFFFFF;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DIN Next W1G";
+font-size: 16px;
+font-weight: 300;
+line-height: 19.2px;
+padding-bottom: 40px;
+/* text-align: left; */
+}
+.cross {
+    position: absolute;
+    /* right: 106px; */
+    padding-left: 25px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding-top: 15px;
+}  
+.time {
+    /* color: #FFF; */
+    /* position: absolute; */
+    /* justify-content: center; */
+    /* background-color: black; */
+    width: 20px;
+    height: 20px;
+  }
+  /* .fa-bars{
+    color: #FFFFFF;
+    font-size: 20px;
+    position: fixed;
+  } */
+
+
+@media only screen and (max-width:1025px) {
+    .shop-heading a {
+        text-decoration: none;
+        font-family: "Quattrocento", serif;
+        text-transform: uppercase;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 38.78px;
+        text-align: center;
+        color: #212121;
+    }
+  
+    .outheading {
+        position: absolute;
+        width: 100%;
+        max-width: 1251px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 2%;
+        padding: 0px 20px;
+    }
+      .solid-right {
+        font-weight: 900;
+        position: absolute;
+        top: 11px;
+        left: 15px;
+      }
+      .solid-left {
+        font-weight: 900;
+        position: absolute;
+        top: 10px;
+        left: 11px;
+      }
+  
+      body::after {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: none;
+        z-index: 999;
+      }
+    
+      .drawer-open::after {
+        display: block;
+      }
+      
+      .drawer-images{
+    padding-top: 50%;
+        display: flex;
+        justify-content: center;
+      }
+      .drawerimg-one{
+        padding-right: 5px;
+      }
+
+      .image-text-main{
+        width: 100%;
+      }
+      .iamge-text-logo{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+      }
+      .image-list{
+        display: none;
+      }
+      .icons-right{
+        width: 25%;
+        display: flex;
+        justify-content: right;
+      }
+      .heading-one{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+      }
+      .heading-one-inner{
+        display: none;
+      }
+      .right-flag {
+        padding-left: 0px;
+    }
+    .large-heading {
+       width: 320px;
+        
+      
+    }
+    .large-heading a {
+        font-family: "Quattrocento", serif;
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 40.4px;
+        /* text-align: left; */
+    }
+    .small-heading {
+padding-bottom: 5px;
+    }
+    .small-heading a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: "DIN Next W1G";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 14.4px;
+    }
+    .list-heading {
+        /* display: none; */
+        top: 300px;
+        /* position: absolute; */
+        left: 150px;
+    }
+    .list-heading ul {
+        padding-left: 20px;
+        padding-bottom: 15px;
+    }
+    .list-heading li {
+        color: #FFFF;
+        padding: 4px;
+    }
+    .list-heading a {
+        font-family: "DIN Next W1G";
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-decoration: none;
+        color: #FFFFFF;
+        /* text-align: left; */
+    }
+    .btn {
+        /* display: none; */
+        cursor: pointer;
+        top: 499px;
+        /* position: absolute; */
+        left: 205px;
+        width: 115px;
+        height: 30px;
+        border: none;
+        background-color: #ffff;
+    }
+      .drawer {
+        display: block;
+        width: 25%;
+      }
+      .drop-menu {
+        position: relative;
+        cursor: pointer;
+        display: inline-block;
+        display: none;
+        display: block;
+      }
+      .drop-menu-content {
+        position: fixed;
+        left: -150%;
+        top: 0;
+        width: 320px;
+        height: 100%;
+        /* background: linear-gradient(90deg, #3D311F 0%, #010100 100%); */
+        background-color: rgb(36, 7, 0);
+        /* overflow: auto; */
+        display: block;
+        transition: all 2s;
+        padding-left: 0%;
+        z-index: 1000;
+        border: 1px solid WHITE;
+      }
+      .fa-magnifying-glass {
+        background-color: rgba(0, 0, 0, 0.04);
+      }
+      .drop-menu-content li {
+        /* padding: 0% 0% 0% 0%; */
+        padding-left: 25px;
+        padding-top: 20px;
+        list-style: none;
+        padding-bottom: 15px;
+      }
+    
+      .btn2 {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 20px;
+        /* height: 20px; */
+        /* padding-left: ; */
+      }
+    
+      li.items.items-one a {
+        font-size: 14px;
+        padding-left: 0;
+        font-family: "Avenir Regular";
+        text-align: center;
+        font-weight: 400;
+        line-height: 13px;
+        /* color: rgb(189, 0, 0); */
+      }
+    
+      li.items.items-one {
+        width: 275px;
+      }
+    
+      .items {
+        width: 290px;
+        height: 7%;
+        color: #000;
+        padding-top: 15px;
+      }
+      .items-one{
+        width: 280px;
+        height: 7%;
+        color: #000;
+        padding-top: 15px;
+      }
+    
+      .items-zero{
+        width: 317px;
+        background-color: rgba(0, 0, 0, 0.09);
+        text-align: center;
+        border-bottom: 2.5px solid #FFFFFF;
+        padding: 19px;
+      }
+      .items-zero a {
+        color:#FFFFFF;
+        font-size: 16px;
+        text-decoration: none;
+        font-style: normal;
+        font-family: "DIN Next W1G";
+        font-weight: 400;
+        line-height: 21px;
+      }
+      li.items a {
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 0;
+        font-family: "DIN Next W1G";
+        font-weight: 400;
+        text-align: center;
+        line-height: 13px;
+        color:#FFFFFF
+      }
+      .drop-menu-content-show {
+        left: 0;
+      }
+      .drop-menu-content input {
+        height: 50px;
+        width: 278px;
+        border: none;
+        padding: 0;
+        background-color: #fff4f4;
+      }
+    
+      /* .minus {
+        width: 7px;
+        height: 31px;
+        padding: 3px;
+        font-size: 20px;
+        font-weight: 600;
+        float: right;
+        border-left: 1px solid rgba(129, 129, 129, .2);
+        display: none;
+      } */
+    
+      .fa-angle-up {
+        width: 7px;
+        height: 31px;
+        padding: 3px;
+        font-size: 20px;
+        font-weight: 600;
+        float: right;
+        border-left: 1px solid rgba(129, 129, 129, .2);
+        /* display: none; */
+        color: #ffff;
+      }
+    .Bars{
+        width: 25%;
+        display: block;
+    }
+      .fa-angle-right {
+        cursor: pointer;
+        color: #FFFF;
+        width: 5px;
+        height: 20px;
+        padding: 3px;
+        font-size: 16px;
+        font-weight: 600;
+        float: right;
+        /* border-left: 1.5px solid white; */
+      }
+
+      .plus-dropdown {
+        display: none;
+        padding-left: 15px;
+      }
+    
+      .plus-dropdown li a {
+        /* padding-left: 56px; */
+        color: #FFF;
+        text-decoration: none;
+        font-size: 14px;
+        font-family: "DIN Next W1G";
+        font-weight: 300;
+      }
+    
+    
+/*     
+      .nav-one ul {
+        position: absolute;
+        top: 80;
+        left: -100%;
+        background-color: yellowgreen;
+        height: 100vh;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        transition: all 0.3s ease;
+      }
+    
+      .nav-one ul li {
+        margin: 10px 0;
+      }
+    
+      .nav-one ul li a {
+        font-size: 20px;
+        font-family: "Avenir Next", sans-serif;
+        font-weight: 400;
+      }
+    
+      .nav-one ul li a:hover {
+        background-color: brown;
+      }
+      .logo {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+      }
+    
+      .logo-img {
+        width: 100%;
+        max-width: 150px;
+      } */
+      
+         .bothimage {
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+        .threeimages {
+            display: flex;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .fourimages {
+            display: flex;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+        }
+        .combine-pic {
+            display: flex;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }    
+        .image-one {
+            width: 100%;
+            padding-right: 0px;
+    /* width: 50%; */
+    position: relative;
+        }
+        .image-one img {
+            width: 100%;
+        }
+        .image-two {
+            width: 100%;
+            padding-left: 0px;
+            position: relative;
+          
+        }
+        .image-two img {
+            width: 100%;
+        }
+        .fourimages-combination {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .fourimages {
+            display: flex;
+            width: 100%;
+        }
+        .pic-one {
+            /* padding-right: 5px; */
+            width: 100%;
+            position: relative;
+        }
+        .pic-one img {
+            width: 100%;
+        }
+       
+        .combine-pic {
+            display: flex;
+            width: 100%;
+        }
+        .three-paragrapgh{
+            width: 100%;
+            display: flex;
+        }
+        .paragraph-sliceone{
+        width: 66.66%;
+        display: flex;
+        }
+        .first-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-one{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-one img{
+            width: 32px;
+            height: 35px;
+        }
+        .fresh-heading{
+            padding-left: 25px;
+            padding-bottom: 25px;
+        }
+        .fresh-heading h4{
+            color: #FFFFFF;
+            font-family: "Quattrocento", serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 31.02px;
+        /* text-align: center; */
+        }
+        .lists-heading ul li{
+            color: #FFFFFF;
+            padding: 10px;
+        }
+        .lists-heading ul li a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        
+        }
+        .second-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-two{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-two img{
+            width: 33px;
+            height: 21px;
+        }
+        .paragraph-slicetwo{
+            width: 33.33%;
+            display: flex;
+        }
+        .third-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-three{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-three img{
+            width: 35px;
+            height: 29px;
+        }
+        
+        .text {
+            width: 188px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid white;
+            margin-bottom: 20px;
+        }
+        .last{
+            width: 188px;
+    height: 50px;
+    border: 2px solid white;
+        }
+    }
+    @media only screen and (max-width:768px){
+        .outheading {
+            position: absolute;
+            width: 100%;
+            max-width: 1251px;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 2%;
+            padding: 0px 20px;
+        }
+
+        .large-heading {
+            width: 320px;
+             
+           
+         }
+         .large-heading a {
+             font-family: "Quattrocento", serif;
+             text-decoration: none;
+             color: #FFFFFF;
+             font-size: 18px;
+             font-weight: 600;
+             line-height: 35.4px;
+             /* text-align: left; */
+         }
+         .small-heading {
+     padding-bottom: 1px;
+         }
+         .small-heading a {
+             color: #FFFFFF;
+             text-decoration: none;
+             font-family: "DIN Next W1G";
+             font-size: 12px;
+             font-weight: 400;
+             line-height: 14.4px;
+         }
+         .list-heading {
+             display: none;
+             top: 300px;
+             /* position: absolute; */
+             left: 150px;
+         }
+         .list-heading ul {
+             padding-left: 20px;
+             padding-bottom: 15px;
+         }
+         .list-heading li {
+             color: #FFFF;
+             padding: 4px;
+         }
+         .list-heading a {
+             font-family: "DIN Next W1G";
+             font-size: 15px;
+             font-weight: 400;
+             line-height: 18.2px;
+             text-decoration: none;
+             color: #FFFFFF;
+             /* text-align: left; */
+         }
+         .btn {
+             /* display: none; */
+             cursor: pointer;
+             top: 499px;
+             /* position: absolute; */
+             left: 205px;
+             width: 115px;
+             height: 20px;
+             border: none;
+             background-color: #ffff;
+         }
+         .btn h5 {
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 19.2px;
+            /* text-align: left; */
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .three-paragrapgh{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .paragraph-sliceone{
+        width: 100%;
+        display: flex;
+        }
+        .first-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-one{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-one img{
+            width: 32px;
+            height: 35px;
+        }
+        .fresh-heading{
+            padding-left: 25px;
+            padding-bottom: 25px;
+        }
+        .fresh-heading h4{
+            color: #FFFFFF;
+            font-family: "Quattrocento", serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 31.02px;
+        /* text-align: center; */
+        }
+        .lists-heading ul li{
+            color: #FFFFFF;
+            padding: 10px;
+        }
+        .lists-heading ul li a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.2px;
+        text-align: left;
+        
+        }
+        .second-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-two{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-two img{
+            width: 33px;
+            height: 21px;
+        }
+        .paragraph-slicetwo{
+            width: 50%;
+            display: flex;
+        }
+        .third-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-three{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-three img{
+            width: 35px;
+            height: 29px;
+        }
+        
+        
+        
+
+
+        .heading-one {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+        }
+        .heading-one h5 {
+            font-family: "DIN Next W1G";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16.8px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        .heading-two {
+   display: none;
+        }
+        .container-two-para {
+            width: 328px;
+            height: 130px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+        }
+        .conatiner-two-inner {
+            max-width: 1440px;
+            margin: 0px auto;
+            padding: 0px;
+        }
+        .container-two-para p {
+            text-align: center;
+            color: #FFFFFF;
+            font-family: "Quattrocento", serif;
+            font-size: 21px;
+            font-weight: 500;
+            line-height: 27.02px;
+            text-align: center;
+        }
+        .shop-heading a {
+            text-decoration: none;
+            font-family: "Quattrocento", serif;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 30.78px;
+            text-align: center;
+            color: #212121;
+        }
+        .bothimage {
+            width: 100%;
+            display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+        padding-left: 10px;
+         
+        }
+        .image-one {
+            width: 100%;
+     
+    /* width: 50%; */
+    position: relative;
+        }
+        .image-one img {
+            width: 100%;
+        }
+        .image-two {
+            width: 100%;
+         
+            position: relative;
+          
+        }
+        .image-two img {
+            width: 100%;
+        }
+        .fourimages-combination {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .fourimages {
+            display: flex;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+        }
+        .pic-one {
+            /* padding-right: 5px; */
+            width: 100%;
+            position: relative;
+        }
+        .pic-one img {
+            width: 100%;
+        }
+       
+        .combine-pic {
+            display: flex;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .lists-heading ul li a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 19.2px;
+            /* text-align: left; */
+        }
+        /* .container-seven-paragraph {
+            width: 420px;
+            height: 124px;
+        } */
+     
+        .container-seven-innerdata {
+            position: absolute;
+            text-align: center;
+            /* background-color: brown; */
+            width: 365px;
+            color: #FFFFFF;
+            align-items: center;
+            justify-content: center;
+            /* height: 271px; */
+        }
+        .container-seven-innerdata h2 {
+            padding-bottom: 5px;
+            font-family: "Quattrocento", serif;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 18.78px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .para-one {
+            padding-bottom: 5px;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18.2px;
+            text-align: center;
+        }
+        .para-two {
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18.2px;
+            text-align: center;
+        }
+        .inerbtn2 {
+            width: 88px;
+            height: 40px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(-50%, -50%);
+        }
+        .inerbtn2 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.2px;
+            text-align: center;
+        }
+        .inerbtn3 {
+            width: 88px;
+            height: 40px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(-50%, -50%);
+        }
+        .inerbtn3 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.2px;
+            text-align: center;
+        }
+        .inerbtn4 {
+            width: 88px;
+            height: 40px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inerbtn4 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17.2px;
+            text-align: center;
+        }
+        .bold-heading h4 {
+            font-family: "DIN Next W1G";
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 19.2px;
+            text-transform: uppercase;
+            /* text-align: left; */
+        }
+        .container-nine-main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+        }
+        .container-nine-slice-one {
+            width: 100%;
+            display: flex;
+        }
+        .container-nine-paraone {
+            width: 50%;
+        }
+        .container-nine-paratwo {
+            width: 50%;
+            color: #FFFFFF;
+        }
+        .container-nine-slice-two {
+            width: 100%;
+            display: flex;
+            padding-top: 20px;
+        }
+        .container-nine-parathree {
+            width: 50%;
+            color: #FFFFFF;
+        }
+        .container-nine-parafour {
+            width: 50%;
+            color: #FFFFFF;
+            /* background-color: aqua; */
+        }
+        .text {
+            width: 188px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid white;
+            margin-bottom: 20px;
+        }
+        .inerbtn{
+            width: 110px;
+            height: 40px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(-50%, -50%);
+        }
+        .inerbtn h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-align: center;
+        }
+        .inerbtn1 {
+            width: 110px;
+            height: 40px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(-50%, -50%);
+        }
+        .inerbtn1 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width:425px){
+        .shop-heading a {
+            text-decoration: none;
+            font-family: "Quattrocento", serif;
+            text-transform: uppercase;
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 30.78px;
+            text-align: center;
+            color: #212121;
+        }
+        .bold-heading h4 {
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-transform: uppercase;
+            /* text-align: left; */
+        }
+        .threeimages {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .firstpic {
+            width: 100%;
+            /* padding-right: 5px; */
+            position: relative;
+        }
+        .firstpic img {
+            width: 100%;
+        }
+        .secondpic {
+            width: 100%;
+            /* padding-right: 5px; */
+            position: relative;
+        }
+        .secondpic img {
+            width: 100%;
+        }
+        .thirdpic {
+            width: 100%;
+            position: relative;
+        }
+        .thirdpic img {
+            width: 100%;
+        }
+        .fourimages-combination {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .fourimages {
+            display: flex;
+            flex-direction: column;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 100%;
+        }
+        .pic-one {
+            /* padding-right: 5px; */
+            width: 100%;
+            position: relative;
+        }
+        .pic-one img {
+            width: 100%;
+        }
+       
+        .combine-pic {
+            display: flex;
+            width: 100%;
+            padding-left: 10px;
+            padding-right: 10px;
+            flex-direction: column;
+        }
+        .three-paragrapgh{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .paragraph-sliceone{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        }
+        .first-paragraph{
+            width: 100%;
+            /* background-color: aqua; */
+        }
+        .icons-one{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-one img{
+            width: 32px;
+            height: 35px;
+        }
+        .fresh-heading{
+            padding-left: 25px;
+            padding-bottom: 5px;
+        }
+        .fresh-heading h4{
+            color: #FFFFFF;
+            font-family: "Quattrocento", serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 31.02px;
+        /* text-align: center; */
+        }
+        .lists-heading ul li{
+            color: #FFFFFF;
+            padding: 10px;
+        }
+        .lists-heading ul li a{
+            text-decoration: none;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.2px;
+        text-align: left;
+        
+        }
+        .second-paragraph{
+            width: 100%;
+            padding-top: 10px;
+            /* background-color: aqua; */
+        }
+        .icons-two{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-two img{
+            width: 33px;
+            height: 21px;
+        }
+        .paragraph-slicetwo{
+            width: 100%;
+            display: flex;
+        }
+        .third-paragraph{
+            width: 100%;
+            padding-top: 10px;
+            /* background-color: aqua; */
+        }
+        .icons-three{
+            width: 100%;
+            padding-left: 25px;
+            padding-bottom: 15px;
+        }
+        .icons-three img{
+            width: 35px;
+            height: 29px;
+        }
+        .container-seven-innerdata {
+            position: absolute;
+            text-align: center;
+            /* background-color: brown; */
+            width: 237px;
+            color: #FFFFFF;
+            align-items: center;
+            justify-content: center;
+            /* height: 271px; */
+        }
+        .container-seven-innerdata h2 {
+            padding-bottom: 0px;
+            font-family: "Quattrocento", serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.78px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .para-one {
+            padding-bottom: 0px;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 15.2px;
+            text-align: center;
+        }
+        .para-two {
+          display: none;
+        }
+        .bold-heading h4 {
+            font-family: "DIN Next W1G";
+            font-size: 11px;
+            font-weight: 500;
+            line-height: 14.2px;
+            text-transform: uppercase;
+            /* text-align: left; */
+        }
+        .light-heading h6 {
+            font-family: "DIN Next W1G";
+            font-size: 8px;
+            font-weight: 400;
+            line-height: 14.4px;
+            color: #000;
+            /* text-align: left; */
+        }
+        .container-nine-main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+        }
+        .container-nine-slice-one {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .container-nine-paraone {
+            width: 50%;
+            
+        }
+        .container-nine-paratwo {
+            width: 50%;
+            color: #FFFFFF;
+            padding-top: 20px;
+        }
+        .container-nine-slice-two {
+            width: 100%;
+            display: flex;
+            padding-top: 20px;
+            flex-direction: column;
+        }
+        .container-nine-parathree {
+            width: 50%;
+            color: #FFFFFF;
+            padding-top: 20px;
+        }
+        .container-nine-parafour {
+            width: 50%;
+            color: #FFFFFF;
+            padding-top: 20px;
+            /* background-color: aqua; */
+        }
+        .large-heading {
+            width: 320px;
+             display: none;
+           
+         }
+         .large-heading a {
+             font-family: "Quattrocento", serif;
+             text-decoration: none;
+             color: #FFFFFF;
+             font-size: 12px;
+             font-weight: 800;
+             line-height: 23.4px;
+             /* text-align: left; */
+         }
+         .small-heading {
+     padding-bottom: 0px;
+     display: none;
+         }
+         .small-heading a {
+             color: #FFFFFF;
+             text-decoration: none;
+             font-family: "DIN Next W1G";
+             font-size: 11px;
+             font-weight: 300;
+             line-height: 14.4px;
+         }
+         .list-heading {
+             display: none;
+             top: 300px;
+             /* position: absolute; */
+             left: 150px;
+         }
+         .list-heading ul {
+             padding-left: 20px;
+             padding-bottom: 1px;
+         }
+         .list-heading li {
+             color: #FFFF;
+             padding: 4px;
+         }
+         .list-heading a {
+             font-family: "DIN Next W1G";
+             font-size: 13px;
+             font-weight: 300;
+             line-height: 18.2px;
+             text-decoration: none;
+             color: #FFFFFF;
+             /* text-align: left; */
+         }
+         .btn {
+             display: none;
+             cursor: pointer;
+             top: 499px;
+             /* position: absolute; */
+             left: 205px;
+             width: 115px;
+             height: 30px;
+             border: none;
+             background-color: #ffff;
+         }
+         .container-two-para {
+            width: 220px;
+            height: 130px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+        }
+        .container-two-para p {
+            text-align: center;
+            color: #FFFFFF;
+            font-family: "Quattrocento", serif;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 27.02px;
+            text-align: center;
+        }
+        .inerbtn{
+            width: 100px;
+            height: 30px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(-50%, -50%);
+        }
+        .inerbtn h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 19.2px;
+            text-align: center;
+        }
+        .inerbtn1 {
+            width: 100px;
+            height: 30px;
+            border: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(-50%, -50%);
+        }
+        .inerbtn1 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 19.2px;
+            text-align: center;
+        }
+        .inerbtn2 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 16.2px;
+            text-align: center;
+        }
+        .inerbtn3 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 16.2px;
+            text-align: center;
+        }
+        .inerbtn4 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 17.2px;
+            text-align: center;
+        }
+        .inerbtn5 h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+            font-family: "DIN Next W1G";
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 19.2px;
+            text-align: center;
+        }
+    }
